@@ -1,4 +1,3 @@
-import Katie from './assets/katie-zaferes.png'
 import stars from './assets/star.png'
 
 export default function Card(prop){
