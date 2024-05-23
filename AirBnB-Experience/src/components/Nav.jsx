@@ -1,4 +1,4 @@
-import Logoairbnb from "./assets/logo-airbnb.svg"
+import Logoairbnb from "../assets/logo-airbnb.svg"
 
 export default function Nav(){
 	return(

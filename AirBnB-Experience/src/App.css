@@ -82,6 +82,9 @@
   margin-left: 36px;
 }
 
+.main-card-container{
+  display: flex;
+}
 .card-container{
   display: flex;
   flex-direction: column;

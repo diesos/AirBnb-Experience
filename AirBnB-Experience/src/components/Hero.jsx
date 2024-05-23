@@ -1,12 +1,12 @@
-import pic1 from "./assets/gallery/1.png"
-import pic2 from "./assets/gallery/2.png"
-import pic3 from "./assets/gallery/3.png"
-import pic4 from "./assets/gallery/4.png"
-import pic5 from "./assets/gallery/5.png"
-import pic6 from "./assets/gallery/6.png"
-import pic7 from "./assets/gallery/7.png"
-import pic8 from "./assets/gallery/8.png"
-import pic9 from "./assets/gallery/9.png"
+import pic1 from "../assets/gallery/1.png"
+import pic2 from "../assets/gallery/2.png"
+import pic3 from "../assets/gallery/3.png"
+import pic4 from "../assets/gallery/4.png"
+import pic5 from "../assets/gallery/5.png"
+import pic6 from "../assets/gallery/6.png"
+import pic7 from "../assets/gallery/7.png"
+import pic8 from "../assets/gallery/8.png"
+import pic9 from "../assets/gallery/9.png"
 
 export default function Hero(){
 	return(
