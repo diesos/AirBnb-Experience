@@ -27,7 +27,9 @@ function App() {
     <Nav />
     <Hero />
     <Mid />
+    <div className="main-card-container">
     {dataElement}
+    </div>
     </>
   )
 }

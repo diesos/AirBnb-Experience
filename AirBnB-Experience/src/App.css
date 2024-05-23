@@ -84,6 +84,10 @@
 
 .main-card-container{
   display: flex;
+  overflow: scroll;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+
 }
 .card-container{
   display: flex;
@@ -92,22 +96,30 @@
   overflow: hidden;
   margin-left: 36px;
   margin-bottom: 5em;
-}
-
-.photo > img:first-child{
-  border-radius: 1em;
-}
-
-.detail{
-  display: flex;
+  height: 100%;
+  flex: 0 0 auto;
   flex-direction: column;
+
 }
+
+.photo > img{
+  border-radius: 1em;
+  width: 100%;
+}
+
+.photo{
+  width: auto;
+  height: auto;
+}
+
+
 .detail>img{
-  width: 18px;
+  width: auto;
   margin-right: 10px;
 }
 .detail>*{
   font-weight: 300;
+
 }
 strong{
   font-weight: 600;;
