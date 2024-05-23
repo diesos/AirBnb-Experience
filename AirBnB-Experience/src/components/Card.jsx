@@ -2,10 +2,14 @@ import stars from '../assets/star.png'
 
 export default function Card(prop){
 	const cardId = prop.id
-	const spotOn = prop.spotOn
+	let badgeText
+	if (prop.openSpots === 0)
+		badgeText = "SOLD  OUT"
+	else if (prop.location === "Online")
+		badgeText = "ONLINE"
 	return(
 		<div className="card-container" key={cardId}>
-			{spotOn === 0 && <div className="card--badge"><p>SOLD OUT</p></div>}
+			{badgeText &&<div className="card--badge"><p>{badgeText}</p></div>}
 			<div className="photo">
 					<img src={`../public/${prop.img}`} alt="pictures" />
 			</div>
