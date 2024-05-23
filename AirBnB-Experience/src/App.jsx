@@ -19,6 +19,7 @@ function App() {
       rating = {item.stats.rating}
       ratingCount = {item.stats.reviewCount}
       country = {item.location}
+      spotOn = {item.openSpots}
       />
     )
 })
