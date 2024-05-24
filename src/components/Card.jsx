@@ -12,7 +12,7 @@ export default function Card(prop){
 		<div className="card-container" key={cardId}>
 			{badgeText &&<div className="card--badge"><p>{badgeText}</p></div>}
 			<div className="photo">
-			<img src={`${origin}/src/images/${prop.img}`} alt="card Image" />
+			<img src={`${origin}/images/${prop.img}`} alt="card Image" />
 
 			</div>
 			<div className="detail">
