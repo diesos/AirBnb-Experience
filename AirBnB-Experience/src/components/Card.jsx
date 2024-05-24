@@ -1,6 +1,7 @@
 import stars from '../assets/star.png'
 
 export default function Card(prop){
+
 	const cardId = prop.id
 	let badgeText
 	if (prop.openSpots === 0)
@@ -11,7 +12,7 @@ export default function Card(prop){
 		<div className="card-container" key={cardId}>
 			{badgeText &&<div className="card--badge"><p>{badgeText}</p></div>}
 			<div className="photo">
-					<img src={`../public/${prop.img}`} alt="pictures" />
+					<img src={`../images/${prop.img}`} alt="pictures" />
 			</div>
 			<div className="detail">
 					<span className="standard"><img src={stars} alt="star" />
